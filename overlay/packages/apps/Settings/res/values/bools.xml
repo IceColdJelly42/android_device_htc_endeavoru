@@ -20,4 +20,7 @@
 
     <!-- Whether or not device settings should be displayed or not for the device -->
     <bool name="has_advanced_settings">true</bool>
+
+    <!-- LED Flashlight -->
+    <bool name="has_led_flash">true</bool>
 </resources>
