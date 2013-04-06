@@ -187,13 +187,5 @@ ro.device.front_cam=1.3MP, 720p
 ro.device.rear_cam=8MP, 1080p
 ro.device.screen_res=720 x 1280 pixels, 4.7"
 
-#ICJ rom info
-ro.icj.version=V2.9 Test Edition
-ro.icj.dev=LorD ClockaN
-ro.icj.kernel=n3ocort3x
-ro.icj.themer=TUN_SD
-ro.icj.maintester=semdoc
-ro.icj.tester=icke
-
 # RC: cahrging LED always ON
 persist.sys.enable-charging-led=1
