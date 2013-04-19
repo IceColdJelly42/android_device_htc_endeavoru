@@ -21,7 +21,7 @@ include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES := external/bluetooth/bluedroid/hci/include
 
-LOCAL_CFLAGS := -g -c -W -Wall -O2 -D_POSIX_SOURCE
+LOCAL_CFLAGS := -g -c -W -Wall -O2 -D_POSIX_SOURCE -fno-strict-aliasing 
 
 LOCAL_SRC_FILES := libbt-vendor-ti.c
 

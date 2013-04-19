@@ -52,6 +52,7 @@ TARGET_BOOTLOADER_BOARD_NAME :=
 USE_MORE_OPT_FLAGS := yes
 DEBUG_NO_STDCXX11 := yes
 # DEBUG_NO_STRICT_ALIASING := yes
+TARGET_GCC_VERSION := 4.6
 
 # Optimization build flags
 TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
