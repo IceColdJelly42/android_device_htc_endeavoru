@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/rootbox/config/gsm.mk)
+$(call inherit-product, vendor/revolt/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := endeavoru
@@ -9,7 +9,8 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/rootbox/config/common.mk)
+$(call inherit-product, vendor/revolt/config/common.mk)
+$(call inherit-product, vendor/revolt/config/common_versions.mk)
 
 
 # Inherit device configuration
@@ -17,7 +18,7 @@ $(call inherit-product, device/htc/endeavoru/full_endeavoru.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := endeavoru
-PRODUCT_NAME := rootbox_endeavoru
+PRODUCT_NAME := revolt_endeavoru
 PRODUCT_BRAND := htc_europe
 PRODUCT_MODEL := HTC One X
 PRODUCT_MANUFACTURER := HTC
